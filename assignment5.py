@@ -12,7 +12,7 @@ import pandas as pd
 
 st.title('Daily Rainfall')
 data = {
-    'Days' : [1, 2, 3, 4, 5, 6, 7],
+    'Day' : [1, 2, 3, 4, 5, 6, 7],
     'Rainfall(mm)' : [20, 10, 0, 100, 50, 0, 30]
 }
 df = pd.DataFrame(data)
@@ -21,7 +21,7 @@ df = pd.DataFrame(data)
 st.write("Rainfall Data:")
 st.write(df)
 
-x_axis = 'Days'
+x_axis = 'Day'
 y_axis = 'Rainfall(mm)'
 
 # Choose chart type: Bar Chart or Line Chart
